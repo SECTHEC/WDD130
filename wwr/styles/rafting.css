@@ -1,0 +1,90 @@
+/* Root color variables */
+:root {
+    --primary-color: #6E2DF0;
+    --secondary-color: #FFFFFF;
+    --text-color: #000000;
+    --background-color: #C3BEF7;
+}
+
+body {
+    font-family: 'Montserrat ', open-sans;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: var(--primary-color);
+}
+
+
+header img {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 700;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Merriweather', serif;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 20px;
+    max-width: 100px;
+}
+
+section h2 {
+    color: var(--primary-color);
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: var(--secondary-color);
+    color: black;
+}
