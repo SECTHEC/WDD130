@@ -1,9 +1,9 @@
 /* Root color variables */
 :root {
     --primary-color: #6E2DF0;
-    --secondary-color: #FFFFFF;
+    --secondary-color: #aac9ff;
     --text-color: #000000;
-    --background-color: #C3BEF7;
+    --background-color: #ffffff;
 }
 
 body {
@@ -18,17 +18,23 @@ header {
     display: grid;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 25px;
     background: var(--primary-color);
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: centre;
 }
 
 
 header img {
-    height: 50px;
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
+
 }
 
 nav {
     display: flex;
+    flex-wrap: wrap;
 }
 nav a {
     color: #fff;
@@ -54,7 +60,7 @@ nav a {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: 'Merriweather', serif;
 }
 
@@ -64,8 +70,9 @@ nav a {
     left: 20px;
     background: rgba(0, 0, 0, 0.7);
     color: #fff;
-    padding: 20px;
+    padding: 15px;
     max-width: 400px;
+
 }
 
 .hero article img {
